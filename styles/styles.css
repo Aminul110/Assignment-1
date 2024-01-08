@@ -1,0 +1,32 @@
+/*Font styles*/
+body .upside {
+     
+     color: #3ade92;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.mainhead{
+   
+color: #48db94;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 95px; /* 131.944% */
+}
+
+
+
+
+
+/* nav styles*/
+nav {
+    text-align: center;
+}
