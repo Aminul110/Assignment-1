@@ -4,6 +4,8 @@
     min-width: 200px;
     background-repeat: no-repeat;
     margin-left: 140px;
+    margin-right: 140px;
+    padding: 100px;
   
 }
 
@@ -36,9 +38,10 @@ line-height: 95px;
      
     display: flex;
     background-repeat: no-repeat;
-    margin-left: 120px;
-    padding: 125px ;}
-    
+    margin-left: 140px;
+    margin-right: 140px;
+    padding: 100px ;}
+
 
 .weltxt{
     width: 642px;
@@ -79,6 +82,119 @@ font-weight: 700;
 line-height: normal;
 }
 .join{
+    margin-left: 140px;
+    margin-right: 140px;
     color: bisque;
     background-color: #070211;
+}
+/* Details related */
+.details{ 
+   
+   padding: 10px;
+    text-align: center;
+    color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+}
+.span{
+    color: #F00;
+}
+.join-a{
+    display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+    color: #ffffff;
+    background-color: #F00;
+              }
+
+/* New Best Offer Related */
+
+.best{
+    color: #F00;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.besta{
+    display: flex;
+    /* margin-left: 150px; */
+    justify-content: center;
+
+}
+.circle{
+    border: 9px solid red;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* Photo Gallery Related */
+
+.photo-gal{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 100%;    
+  margin-left: 140px;
+}
+
+
+.gift{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.port{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.left{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+/* Email Section */
+
+.Email-prg{
+    margin-top: 100px;
+    padding: 100px;
+    background-color: antiquewhite;
+    margin-left: 140px;
+    margin-right: 140px;
+    text-align: center;
+}
+
+.email{
+    
+    margin-left: 400px;
+    width: 150px;
+height: 150px;
+flex-shrink: 0;
+}
+.news{
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
 }
