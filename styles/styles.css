@@ -1,32 +1,84 @@
-/*Font styles*/
-body .upside {
-     
-     color: #3ade92;
+.Banner{
+    background-image: url('../resources/Banner\ Image.png');
+    height: 600px;
+    min-width: 200px;
+    background-repeat: no-repeat;
+    margin-left: 140px;
+  
+}
 
+  .smalltext{
+    color: aqua;
 text-align: center;
-font-family: Merriweather;
+font-family: 'Merriweather', serif;
 font-size: 32px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-}
-.mainhead{
-   
-color: #48db94;
-
-text-align: center;
-font-family: Merriweather;
+  }
+.bigtext{
+    font-family: 'Merriweather', serif;
+    color: aqua;
+    text-align: center;
 font-size: 72px;
 font-style: normal;
-font-weight: 900;
-line-height: 95px; /* 131.944% */
+font-weight: 900px;
+line-height: 95px;
 }
-
-
-
-
-
-/* nav styles*/
-nav {
+/* Offer Related */
+.new{
     text-align: center;
+}
+/* WELCOME RELATED */
+.Welcome{
+    color: #fff;
+    background-image: url('../resources/Vectorrr.png');
+     
+    display: flex;
+    background-repeat: no-repeat;
+    margin-left: 120px;
+    padding: 125px ;}
+    
+
+.weltxt{
+    width: 642px;
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px; /* 137.5% */
+letter-spacing: 7.04px;
+}
+.OFF{
+    color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.DEAL{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.Cat{
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.join{
+    color: bisque;
+    background-color: #070211;
 }
