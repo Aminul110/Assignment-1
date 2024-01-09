@@ -215,3 +215,26 @@ padding-right: 100px;
     color: #FFF;
     background-color: #F00;
 }
+/* Footer Related */
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 180px;
+    margin-right: 200px;
+}
+.f-photo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+footer{
+    width: 970px;
+height: 550px;
+flex-shrink: 0;
+    background-color: #070211;
+    color: #fff;
+    margin-left: 140px;
+   
+   
+}
