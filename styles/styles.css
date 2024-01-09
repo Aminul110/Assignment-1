@@ -89,7 +89,7 @@ line-height: normal;
 }
 /* Details related */
 .details{ 
-   
+   margin-bottom: 150px;
    padding: 10px;
     text-align: center;
     color: #070211;
@@ -127,8 +127,7 @@ line-height: normal;
 
 .besta{
     display: flex;
-    /* margin-left: 150px; */
-    justify-content: center;
+   justify-content: center;
 
 }
 .circle{
@@ -143,8 +142,9 @@ line-height: normal;
     display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
-  width: 100%;    
+  width: 10px;    
   margin-left: 140px;
+  margin-right: 140px;
 }
 
 
@@ -182,19 +182,36 @@ text-transform: capitalize;
 }
 
 .email{
-    
-    margin-left: 400px;
+    margin-left: 300px;
+    margin-right: 300px;
     width: 150px;
 height: 150px;
 flex-shrink: 0;
 }
 .news{
     color: #070211;
-text-align: center;
+
 font-family: Merriweather;
 font-size: 48px;
 font-style: normal;
 font-weight: 900;
 line-height: normal;
 text-transform: capitalize;
+}
+
+.main{
+   padding: 0px;}
+
+
+.bar{
+height: 30px;
+border-radius: 50px;
+padding-right: 100px;
+
+}
+.barx{
+    height: 33px;
+    border-radius: 50px;
+    color: #FFF;
+    background-color: #F00;
 }
